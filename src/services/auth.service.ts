@@ -1,4 +1,5 @@
 import jwt, { JwtPayload } from "jsonwebtoken";
+import {User} from '../models/user_model'
 export type JWTPayload = {
     id: string;
     email: string;
